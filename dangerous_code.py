@@ -1,3 +1,4 @@
+# adding more dangerous code
 graph = {'A': set(['B', 'C']),
          'B': set(['A', 'D', 'E']),
          'C': set(['A', 'F']),
