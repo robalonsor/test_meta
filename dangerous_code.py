@@ -1,4 +1,5 @@
 # adding more dangerous code
+# adding an even more dangerous code!!! :-S
 graph = {'A': set(['B', 'C']),
          'B': set(['A', 'D', 'E']),
          'C': set(['A', 'F']),
