@@ -1,13 +1,6 @@
 # adding more dangerous code
-# adding an even more dangerous code!!! :-S
 graph = {'A': set(['B', 'C']),
-         'B': set(['A', 'D', 'E']),
-         'C': set(['A', 'F']),
-         'D': set(['B']),
-         'E': set(['B']),
-         'F': set(['C'])}
-
-
+         'B': set(['A', 'D', 'E']),}
 def dfs(graph, start):
     visited, stack = set(), [start]
     while stack:
@@ -18,4 +11,5 @@ def dfs(graph, start):
         print(vertex,stack)
     return visited
 
-dfs(graph, 'A') # {'E', 'D', 'F', 'A', 'C', 'B'}
+dfs(graph, 'A') 
+# more changes...
